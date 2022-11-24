@@ -3,9 +3,49 @@
 <title>Online HTML Editor</title>
 <head>
     <title>CropBuddy</title>
+    <link href="./styles.css" rel="stylesheet" />
 </head>
 <body>
-<h1>Online HTML Editor</h1>
+<nav class="navbar">
+      <button onclick="toggleMenu()" class="burger"></button>
+      <button class="button">Home</button>
+      <div class="dropdowns">
+        <div class="dropdown">
+          <button class="button">
+            GitHub
+            <img src="chevron.svg" />
+          </button>
+          <div class="dropdown-menu">
+            <button><a href="https://github.com/guryansh" style="color: #fb3f00; text-decoration: none;">Profile</a></button>
+            <button>Web Applications</button>
+            <button>SEO Advice</button>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="button">
+            Links
+            <img src="chevron.svg" />
+          </button>
+          <div class="dropdown-menu">
+            <button><a href="http://oldfashionhalloween.blogspot.com/" style="color: #fb3f00; text-decoration: none;">History</a></button>
+            <button><a href="https://spookylittlehalloween.com/" style="color: #fb3f00; text-decoration: none;">Blogs</a></button>
+            <button><a href="https://halloweencollector.com/" style="color: #fb3f00; text-decoration: none;">Collection</a></button>   
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="button">
+            Support
+            <img src="chevron.svg" />
+          </button>
+          <div class="dropdown-menu">
+            <button>Live Chat</button>
+            <button>Send Email</button>
+            <button>Request Help</button>
+          </div>
+        </div>
+      </div>
+      <input type="text" placeholder="Search" class="navbar-search" />
+    </nav>
 <div>This is real time online HTML Editor</div>
 </body>
 </html>
