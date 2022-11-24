@@ -21,7 +21,7 @@ button {
 }
 
 :is(.navbar, .burger, .dropdowns) {
-  position: fixed;
+  position: static;
   top: 0;
   width: 100%;
 }
