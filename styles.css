@@ -3,7 +3,7 @@ body {
   padding-top: 72px;
 }
 
-button1 {
+button {
   border: 0;
   padding: 0;
   background: transparent;
@@ -15,7 +15,7 @@ button1 {
 }
 
 @media (width >= 500px) {
-  button1 {
+  button {
     font-size: 16px;
   }
 }
@@ -58,7 +58,7 @@ body.open .burger {
   }
 }
 
-.button1 {
+.button {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -67,16 +67,16 @@ body.open .burger {
   opacity: 0.6;
 }
 
-.button1 > img {
+.button > img {
   display: none;
 }
 
 @media (width >= 500px) {
-  .button1 {
+  .button {
     padding: 0 10px 0 24px;
   }
 
-  .button1 > img {
+  .button > img {
     display: block;
   }
 }
